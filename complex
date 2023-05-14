@@ -1,0 +1,12 @@
+import cmath
+
+def calculate_argument(Z):
+    argument = cmath.phase(Z)
+    return argument
+
+# Example shown
+complex_number = complex(3, 4)  # Define a complex number
+argument = calculate_argument(complex_number)  # Calculate the argument
+
+print("Complex Number:", complex_number)
+print("Argument:", argument)
